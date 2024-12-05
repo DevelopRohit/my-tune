@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+.main {
+    background: url(image/hero_image.png );
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    background-size: max(1500px, 100vw);
+}
+
+.nav1 {
+    background-color: #270082;
+    padding: 12px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.nav {
+    width: 80%;
+    margin-inline: auto;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.nav h1 {
+    font-size: 40px;
+}
+.head-list {
+    display: flex;
+}
+
+.head-list li {
+    margin-left: 15px;
+    list-style: none;
+    padding: 20px;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.Overview {
+    position: relative;
+    top: 30vh;
+    width: 70%;
+    text-align: center;
+    margin-inline: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.item1 {
+    font-size: 15vh;
+}
+
+.content>:nth-child(2) {
+    font-size: 6vh;
+}
+
+.content>:nth-child(3) {
+    font-size: 6vh;
+}
+
+.music {
+    background-color: #281154;
+    height: 85vh;
+    color: white;
+    width: 100%;
+
+}
+
+.music-content {
+    position: relative;
+    top: 50px;
+    margin-inline: auto;
+    width: 80%;
+    text-align: center;
+}
+
+h4 {
+    text-align: start;
+}
+
+button {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.hero {
+    position: relative;
+    top: 70vh;
+    width: 80%;
+    margin-inline: auto;
+    text-align: center;
+}
+
+p {
+    margin-top: 65px;
+    font-weight: 100;
+}
+
+.img {
+    position: relative;
+    top: 3vh;
+}
+.dj{
+    background: url(image/video.png);
+    position: relative;
+    background-repeat: no-repeat;
+    top: 90vh;
+    height:701px;
+    background-size: max(1500px, 100vw);
+    color: white;
+    text-align: center;
+}
+.dj-content{
+    height: 600px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80%;
+}
+.gift{
+    position: relative;
+    top: 100vh;
+    left: 10vh;
+    width: 95%;
+    display: flex;
+}
+.card{
+    width: 50%;
+    margin-left: 5vh;
+}
+.card-button{
+    background-color: #270082;
+}
+footer{
+    background-color:#270082;
+    position: relative;
+    top: 100vh;
+    width: 100%;
+    height: 40vh;
+    color: aliceblue;
+    padding: 5vh;
+}
+.foot{
+    width: 80%;
+    margin-inline: auto;
+}
+.footer-list li{ 
+    list-style: none;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.caption{
+    background-color: #281154;
+    position: relative;
+    top: 100vh;
+    padding:20px;
+    color: aliceblue;
+    text-align: center;
+}
